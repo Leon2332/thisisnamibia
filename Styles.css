@@ -1,9 +1,18 @@
+
 /*===============================
-        TABLE OF CONTENTS
-      1. 
-===============================*/
+      TABLE OF CONTENTS
+
+      1. Sticky Header
+      2. Menu
+      3. 
+================================*/
 
 
+
+
+/*===============================
+      1. Sticky Header
+================================*/
 
 #site-header {
 position: sticky;
@@ -13,11 +22,16 @@ position: sticky;
 }
 
 
-.site-navigation {
-align-items: end;
-font-size: 16px;
-}
 
+
+/*===============================
+      2. Menu
+================================*/
+
+.site-navigation {
+  align-items: end;
+  font-size: 16px;
+}
 
 .menu-item {
   height: 35px;
@@ -27,9 +41,9 @@ font-size: 16px;
   margin-right: 5px;
   border-color: #fff0;
   transition: 0.5s;
-  }
+}
   
 .menu-item:hover {
   border-color: #99b545;
   transition: 1s;
-  }
+}
