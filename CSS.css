@@ -1,0 +1,35 @@
+/*===============================
+        TABLE OF CONTENTS
+      1. 
+===============================*/
+
+
+
+#site-header {
+position: sticky;
+  top: 0px;
+  z-index: 999999;
+  background-image: linear-gradient(#eaeaeac4, white);
+}
+
+
+.site-navigation {
+align-items: end;
+font-size: 16px;
+}
+
+
+.menu-item {
+  height: 35px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-color: #fff0;
+  transition: 0.5s;
+  }
+  
+.menu-item:hover {
+  border-color: #99b545;
+  transition: 1s;
+  }
