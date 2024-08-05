@@ -4,6 +4,7 @@
       1. Sticky Header
       2. Menu
       3. Site Logo
+      4. Site Navigation Cards
 ================================*/
 
 
@@ -38,14 +39,15 @@
   font-size: 16px;
 }
 
+@media (min-width: 993px) {
 .menu-item {
-  height: 35px;
   border-bottom-style: solid;
   border-width: 2px;
   margin-left: 5px;
   margin-right: 5px;
   border-color: #fff0;
   transition: 0.5s;
+	}
 }
   
 .menu-item:hover {
@@ -76,4 +78,35 @@ p.site-description {
 
 .site-logo img{
   max-height: 43px;
+}
+
+
+
+
+/*===============================
+      4. Site Navigation Cards
+================================*/
+
+@media (min-width: 993px) {
+.bezier-cubic-card {
+	color: rgba(255, 255, 255, 0);
+	opacity: 0.4;
+	filter: grayscale(50%);
+	background-image: linear-gradient(white, white);
+	border-radius: 5px;
+	transition: 0.5s;
+  transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
+
+.bezier-cubic-card:hover {
+	color: #99b545;
+	opacity: 0.9;
+	filter: none;
+	background-image: linear-gradient(white, rgba(241, 241, 241, 0.315));
+	margin-top: -30px;
+	margin-bottom: 30px;
+	transition: 0.3s;
+	transition-delay: 0.1s;
+  transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
 }
