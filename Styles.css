@@ -3,7 +3,7 @@
 
       1. Sticky Header
       2. Menu
-      3. 
+      3. Site Logo
 ================================*/
 
 
@@ -14,12 +14,18 @@
 ================================*/
 
 #site-header {
-position: sticky;
+  position: sticky;
   top: 0px;
   z-index: 99998;
-  background-image: linear-gradient(#ffffffc4, white);
+  background-image: linear-gradient(#ffffff80, white);
+  background-color: #fff0;
+  transition: 0.5s;
 }
 
+#site-header:hover {
+  background-color: white;
+  transition: 0.5s;
+}
 
 
 
@@ -49,6 +55,7 @@ position: sticky;
 
 .current_page_item {
   border-color: #99b545;
+
 }
 
 p.site-description {
@@ -58,4 +65,15 @@ p.site-description {
   word-spacing: 1px;
   line-height: 10px;
   margin-top: -5px;
+}
+
+
+
+
+/*===============================
+      3. Site Logo
+================================*/
+
+.site-logo img{
+  max-height: 43px;
 }
