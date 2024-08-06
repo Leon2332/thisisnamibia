@@ -85,28 +85,62 @@ p.site-description {
 
 /*===============================
       4. Site Navigation Cards
+
+					4.1 Style-1
+					4.2 Style-2
+================================*/
+
+
+/*===============================
+					4.1 Style-1
 ================================*/
 
 @media (min-width: 993px) {
 .bezier-cubic-card {
-	color: rgba(255, 255, 255, 0);
-	opacity: 0.4;
+	color: lightgray;
+	opacity: 0.7;
 	filter: grayscale(50%);
-	background-image: linear-gradient(white, white);
 	border-radius: 5px;
-	transition: 0.5s;
+	transition: 0.3s;
   transition-timing-function: cubic-bezier(.5,0,.5,1);
 	}
-
+	
 .bezier-cubic-card:hover {
 	color: #99b545;
 	opacity: 0.9;
 	filter: none;
-	background-image: linear-gradient(white, rgba(241, 241, 241, 0.315));
 	margin-top: -30px;
 	margin-bottom: 30px;
 	transition: 0.3s;
 	transition-delay: 0.1s;
   transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
+}
+
+
+/*===============================
+					4.2 Style-2
+================================*/
+
+@media (min-width: 993px) {
+.bezier-cubic-card-2 {
+	color: lightgray;
+	opacity: 0.7;
+	filter: grayscale(70%);
+	width: auto;
+	border-radius: 5px;
+	transition: 0.3s;
+	transition-delay: 0.1s;
+  transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+	}
+	
+.bezier-cubic-card-2:hover {
+	color: #99b545;
+	opacity: 1;
+	filter: none;
+	width: 20vw;
+	transition: 0.3s;
+	transition-delay: 0.1s;
+  transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
 	}
 }
