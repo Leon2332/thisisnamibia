@@ -11,136 +11,200 @@
 
 
 /*===============================
-      1. Sticky Header
+		1. Sticky Header
 ================================*/
 
 #site-header {
-  position: sticky;
-  top: 0px;
-  z-index: 99998;
-  background-image: linear-gradient(#ffffff80, white);
-  background-color: #fff0;
-  transition: 0.5s;
-}
-
-#site-header:hover {
-  background-color: white;
-  transition: 0.5s;
-}
-
-
-
-/*===============================
-      2. Menu
-================================*/
-
-.site-navigation {
-  align-items: end;
-  font-size: 16px;
-}
-
-@media (min-width: 993px) {
-.menu-item {
-  border-bottom-style: solid;
-  border-width: 2px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-color: #fff0;
-  transition: 0.5s;
-	}
-}
+	position: sticky;
+	top: 0px;
+	z-index: 99998;
+	background-image: linear-gradient(#ffffff80, white);
+	background-color: #fff0;
+	transition: 0.5s;
+  }
   
-.menu-item:hover {
-  border-color: #99b545;
-  transition: 1s;
-}
-
-.current_page_item {
-  border-color: #99b545;
-
-}
-
-p.site-description {
-  font-size: small;
-  letter-spacing: 0.2px;
-  padding-left: 10px;
-  word-spacing: 1px;
-  line-height: 10px;
-  margin-top: -5px;
-}
-
-
-
-
+  #site-header:hover {
+	background-color: white;
+	transition: 0.5s;
+  }
+  
+  
+  
 /*===============================
-      3. Site Logo
+		2. Menu
 ================================*/
-
-.site-logo img{
-  max-height: 43px;
-}
-
-
-
-
-/*===============================
-      4. Site Navigation Cards
-
-					4.1 Style-1
-					4.2 Style-2
-================================*/
-
-
-/*===============================
-					4.1 Style-1
-================================*/
-
-@media (min-width: 993px) {
-.bezier-cubic-card {
-	color: lightgray;
-	opacity: 0.7;
-	filter: grayscale(50%);
-	border-radius: 5px;
-	transition: 0.3s;
-  transition-timing-function: cubic-bezier(.5,0,.5,1);
-	}
+  
+  .site-navigation {
+	align-items: end;
+	font-size: 16px;
+  }
+  
+  @media (min-width: 993px) {
+  .menu-item {
+	border-bottom-style: solid;
+	border-width: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-color: #fff0;
+	transition: 0.5s;
+	  }
+  }
 	
-.bezier-cubic-card:hover {
-	color: #99b545;
-	opacity: 0.9;
-	filter: none;
-	margin-top: -30px;
-	margin-bottom: 30px;
-	transition: 0.3s;
-	transition-delay: 0.1s;
-  transition-timing-function: cubic-bezier(.5,0,.5,1);
-	}
-}
-
-
+  .menu-item:hover {
+	border-color: #99b545;
+	transition: 1s;
+  }
+  
+  .current_page_item {
+	border-color: #99b545;
+  
+  }
+  
+  p.site-description {
+	font-size: small;
+	letter-spacing: 0.2px;
+	padding-left: 10px;
+	word-spacing: 1px;
+	line-height: 10px;
+	margin-top: -5px;
+  }
+  
+  
+  
+  
 /*===============================
-					4.2 Style-2
+		3. Site Logo
 ================================*/
+  
+  .site-logo img{
+	max-height: 43px;
+  }
+  
+  
+  
+  
+/*===============================
+		4. Site Navigation Cards
+  
+			4.1 Style-1
+			4.2 Style-2
+			4.3 Style-3
+================================*/
+  
+  
+/*-------------------------------
+			4.1 Style-1
+-------------------------------*/
+  
+	@media (min-width: 993px) {
+  	.bezier-cubic-card {
+		color: rgb(240, 240, 240);
+		filter: grayscale(.5) brightness(0.9);
+		transition: 0.3s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
+	  
+	.bezier-cubic-card:hover {
+		color: #99b545;
+		opacity: 0.9;
+		filter: none;
+		margin-top: -30px;
+		margin-bottom: 30px;
+		transition: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
+  
+	.bezier-cubic-card img {
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+	  }
+	  
+	.bezier-cubic-card img:hover {
+		border-style: solid;
+		border-width: 1px;
+		border-color: #99b545;
+	  }
+	}
+  
+  
+/*-------------------------------
+			4.2 Style-2
+-------------------------------*/
+  
+	@media (min-width: 993px) {
+	.bezier-cubic-card-2 {
+		color: rgb(240, 240, 240);
+		filter: grayscale(.5) brightness(0.9);
+		width: auto;
+		transition: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+		}
+  
+	.bezier-cubic-card-2:hover {
+		color: #99b545;
+		opacity: 1;
+		filter: none;
+		width: 20vw;
+		transition: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+	  }
+	}
+  
+  
+  
+/*-------------------------------
+			4.3 Style-3
+-------------------------------*/
+  
+	@media (min-width: 993px) {
+	.bezier-cubic-card-3 {
+		overflow: hidden;
+		height: 300px;
+		color: rgba(255, 255, 255, 0);
+		filter: grayscale(.5) brightness(0.9);
+		transition: 0.5s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
+	  
+	.bezier-cubic-card-3 a:link {
+		color: rgba(255, 255, 255, 0);
+		transition: 0.5s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
+	  
+	.bezier-cubic-card-3:hover {
+		color: #99b545;
+		opacity: 0.9;
+		filter: none;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
 
-@media (min-width: 993px) {
-.bezier-cubic-card-2 {
-	color: lightgray;
-	opacity: 0.7;
-	filter: grayscale(70%);
-	width: auto;
-	border-radius: 5px;
-	transition: 0.3s;
-	transition-delay: 0.1s;
-  transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+		.bezier-cubic-card-3 img{
+			object-fit: cover;
+		height: 250px;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+		
+		.bezier-cubic-card-3:hover img{
+		height: 150px;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+		
+	.bezier-cubic-card-3:hover a:link, a:visited {
+		color: #99b545;
+		transition: 0.5s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	  }
 	}
-	
-.bezier-cubic-card-2:hover {
-	color: #99b545;
-	opacity: 1;
-	filter: none;
-	width: 20vw;
-	transition: 0.3s;
-	transition-delay: 0.1s;
-  transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
-	}
-}
