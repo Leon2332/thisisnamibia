@@ -1,10 +1,11 @@
 /*===============================
       TABLE OF CONTENTS
 
-      1. Sticky Header
-      2. Menu
-      3. Site Logo
-      4. Site Navigation Cards
+    	1. Sticky Header
+    	2. Menu
+    	3. Site Logo
+    	4. Site Navigation Cards
+		5. Footer Signup form
 ================================*/
 
 
@@ -165,7 +166,7 @@
 		overflow: hidden;
 		height: 300px;
 		color: rgba(255, 255, 255, 0);
-		filter: grayscale(.5) brightness(0.9);
+		filter: none;
 		transition: 0.5s;
 		transition-timing-function: cubic-bezier(.5,0,.5,1);
 	  }
@@ -178,24 +179,26 @@
 	  }
 	  
 	.bezier-cubic-card-3:hover {
+		overflow: visible;
+		height: 330px;
+		margin-top:-30px;
 		color: #99b545;
-		opacity: 0.9;
-		filter: none;
+		filter: grayscale(.5) brightness(0.9);
 		transition: 0.5s;
 		transition-delay: 0.1s;
 		transition-timing-function: cubic-bezier(.5,0,.5,1);
 	  }
 
-		.bezier-cubic-card-3 img{
-			object-fit: cover;
+	.bezier-cubic-card-3 img{
+		object-fit: cover;
 		height: 250px;
 		transition: 0.5s;
 		transition-delay: 0.1s;
 		transition-timing-function: cubic-bezier(.5,0,.5,1);
 		}
 		
-		.bezier-cubic-card-3:hover img{
-		height: 150px;
+	.bezier-cubic-card-3:hover img{
+		height: 100px;
 		transition: 0.5s;
 		transition-delay: 0.1s;
 		transition-timing-function: cubic-bezier(.5,0,.5,1);
@@ -203,8 +206,22 @@
 		
 	.bezier-cubic-card-3:hover a:link, a:visited {
 		color: #99b545;
-		transition: 0.5s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
 	  }
+
+	  .bezier-cubic-card-3 a:link:hover {
+		text-decoration-line: underline;
+	  }
+	}
+
+
+
+/*===============================
+		5. Footer Signup form
+
+	Element had fixed width.
+	Results in horizontal scroll.
+================================*/
+
+	#mc_embed_signup {
+		width: 100% !important;
 	}
