@@ -1,11 +1,12 @@
 /*===============================
-      TABLE OF CONTENTS
+    TABLE OF CONTENTS
 
     	1. Sticky Header
     	2. Menu
     	3. Site Logo
     	4. Site Navigation Cards
 		5. Footer Signup form
+		6. Custom list
 ================================*/
 
 
@@ -15,19 +16,19 @@
 		1. Sticky Header
 ================================*/
 
-#site-header {
-	position: sticky;
-	top: 0px;
-	z-index: 99998;
-	background-image: linear-gradient(#ffffff80, white);
-	background-color: #fff0;
-	transition: 0.5s;
-  }
+	#site-header {
+		position: sticky;
+		top: 0px;
+		z-index: 99998;
+		background-image: linear-gradient(#ffffff80, white);
+		background-color: #fff0;
+		transition: 0.5s;
+	}
   
-  #site-header:hover {
-	background-color: white;
-	transition: 0.5s;
-  }
+	#site-header:hover {
+		background-color: white;
+		transition: 0.5s;
+	}
   
   
   
@@ -35,40 +36,39 @@
 		2. Menu
 ================================*/
   
-  .site-navigation {
-	align-items: end;
-	font-size: 16px;
-  }
+ 	.site-navigation {
+		align-items: end;
+		font-size: 16px;
+	}
   
-  @media (min-width: 993px) {
-  .menu-item {
-	border-bottom-style: solid;
-	border-width: 2px;
-	margin-left: 5px;
-	margin-right: 5px;
-	border-color: #fff0;
-	transition: 0.5s;
-	  }
-  }
+ 	@media (min-width: 993px) {
+		.menu-item {
+			border-bottom-style: solid;
+			border-width: 2px;
+			margin-left: 5px;
+			margin-right: 5px;
+			border-color: #fff0;
+			transition: 0.5s;
+		}
+ 	}
 	
-  .menu-item:hover {
-	border-color: #99b545;
-	transition: 1s;
-  }
+	.menu-item:hover {
+		border-color: #99b545;
+		transition: 1s;
+	}
   
-  .current_page_item {
-	border-color: #99b545;
+	.current_page_item {
+		border-color: #99b545;
+	}
   
-  }
-  
-  p.site-description {
-	font-size: small;
-	letter-spacing: 0.2px;
-	padding-left: 10px;
-	word-spacing: 1px;
-	line-height: 10px;
-	margin-top: -5px;
-  }
+	p.site-description {
+		font-size: small;
+		letter-spacing: 0.2px;
+		padding-left: 10px;
+		word-spacing: 1px;
+		line-height: 10px;
+		margin-top: -5px;
+  	}
   
   
   
@@ -77,9 +77,9 @@
 		3. Site Logo
 ================================*/
   
-  .site-logo img{
-	max-height: 43px;
-  }
+	.site-logo img{
+		max-height: 43px;
+  	}
   
   
   
@@ -98,35 +98,29 @@
 -------------------------------*/
   
 	@media (min-width: 993px) {
-  	.bezier-cubic-card {
-		color: rgb(240, 240, 240);
-		filter: grayscale(.5) brightness(0.9);
-		transition: 0.3s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	  }
+		.bezier-cubic-card {
+			color: rgb(240, 240, 240);
+			filter: grayscale(.5) brightness(0.9);
+			transition: 0.3s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
 	  
-	.bezier-cubic-card:hover {
-		color: #99b545;
-		opacity: 0.9;
-		filter: none;
-		margin-top: -30px;
-		margin-bottom: 30px;
-		transition: 0.3s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	  }
+		.bezier-cubic-card:hover {
+			color: #99b545;
+			opacity: 0.9;
+			filter: none;
+			margin-top: -30px;
+			margin-bottom: 30px;
+			transition: 0.3s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
   
-	.bezier-cubic-card img {
-		border-style: solid;
-		border-width: 1px;
-		border-color: white;
-	  }
-	  
-	.bezier-cubic-card img:hover {
-		border-style: solid;
-		border-width: 1px;
-		border-color: #99b545;
-	  }
+		.bezier-cubic-card img{
+			border-style: solid;
+			border-width: 1px;
+			border-color: white;
+		}
 	}
   
   
@@ -135,24 +129,24 @@
 -------------------------------*/
   
 	@media (min-width: 993px) {
-	.bezier-cubic-card-2 {
-		color: rgb(240, 240, 240);
-		filter: grayscale(.5) brightness(0.9);
-		width: auto;
-		transition: 0.3s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+		.bezier-cubic-card-2 {
+			color: rgb(240, 240, 240);
+			filter: grayscale(.5) brightness(0.9);
+			width: auto;
+			transition: 0.3s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
 		}
   
-	.bezier-cubic-card-2:hover {
-		color: #99b545;
-		opacity: 1;
-		filter: none;
-		width: 20vw;
-		transition: 0.3s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
-	  }
+		.bezier-cubic-card-2:hover {
+			color: #99b545;
+			opacity: 1;
+			filter: none;
+			width: 20vw;
+			transition: 0.3s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
+		}
 	}
   
   
@@ -161,57 +155,62 @@
 			4.3 Style-3
 -------------------------------*/
   
-	@media (min-width: 993px) {
-	.bezier-cubic-card-3 {
-		overflow: hidden;
-		height: 300px;
-		color: rgba(255, 255, 255, 0);
-		filter: none;
-		transition: 0.5s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	  }
-	  
-	.bezier-cubic-card-3 a:link {
-		color: rgba(255, 255, 255, 0);
-		transition: 0.5s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	  }
-	  
-	.bezier-cubic-card-3:hover {
-		overflow: visible;
-		height: 330px;
-		margin-top:-30px;
-		color: #99b545;
-		filter: grayscale(.5) brightness(0.9);
-		transition: 0.5s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	  }
-
 	.bezier-cubic-card-3 img{
 		object-fit: cover;
 		height: 250px;
 		transition: 0.5s;
 		transition-delay: 0.1s;
 		transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-		
-	.bezier-cubic-card-3:hover img{
-		height: 100px;
-		transition: 0.5s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-		
-	.bezier-cubic-card-3:hover a:link, a:visited {
-		color: #99b545;
-	  }
-
-	  .bezier-cubic-card-3 a:link:hover {
-		text-decoration-line: underline;
-	  }
 	}
+
+	@media (min-width: 993px) {
+		.bezier-cubic-card-3 {
+			overflow: hidden;
+			height: 300px;
+			color: rgba(255, 255, 255, 0);
+			transition: 0.5s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+
+		.bezier-cubic-card-3 a:link{
+			color: rgba(255, 255, 255, 0);
+			transition: 0.5s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+		
+		.bezier-cubic-card-3:hover {
+			overflow: visible;
+			color: #99B545;
+			transition: 0.5s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+		
+		.bezier-cubic-card-3:hover img{
+			height: 10px;
+			transition: 0.5s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+	}	
+
+	.bezier-cubic-card-3 a:link, a:visited{
+		color: #99B545;
+	}
+
+	.bezier-cubic-card-3 a:link:hover{
+		text-decoration-line: underline;
+	}
+
+	.bezier-cubic-card-3 ul{
+		padding-right: 5px;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 5px;
+		border-color: #99b545;
+	}
+
 
 
 
@@ -224,4 +223,19 @@
 
 	#mc_embed_signup {
 		width: 100% !important;
+	}
+
+
+
+
+/*===============================
+		6. Custom list
+================================*/
+
+	.tin-custom-ul ul {
+		list-style: none;
+	}
+	  
+	.tin-custom-ul ul li:before {
+		content: '☐ ';
 	}
