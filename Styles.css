@@ -90,6 +90,7 @@
 			4.1 Style-1
 			4.2 Style-2
 			4.3 Style-3
+			4.4 Quick Links
 ================================*/
   
   
@@ -110,16 +111,10 @@
 			opacity: 0.9;
 			filter: none;
 			margin-top: -30px;
-			margin-bottom: 30px;
+			padding-bottom: 30px;
 			transition: 0.3s;
 			transition-delay: 0.1s;
 			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-  
-		.bezier-cubic-card img{
-			border-style: solid;
-			border-width: 1px;
-			border-color: white;
 		}
 	}
   
@@ -210,6 +205,28 @@
 		border-radius: 5px;
 		border-color: #99b545;
 	}
+
+
+/*-------------------------------
+			4.4 Quick Links
+-------------------------------*/
+
+	.tin-quick-link {
+		transition: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
+
+	@media (min-width: 993px) {
+		.tin-quick-link:hover {
+			margin-top: -10px;
+			padding-bottom: 10px;
+			transition: 0.3s;
+			transition-delay: 0.1s;
+			transition-timing-function: cubic-bezier(.5,0,.5,1);
+		}
+	}
+
 
 
 
