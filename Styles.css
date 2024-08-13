@@ -89,8 +89,7 @@
   
 			4.1 Style-1
 			4.2 Style-2
-			4.3 Style-3
-			4.4 Quick Links
+			4.3 Link Colours
 ================================*/
   
   
@@ -137,7 +136,7 @@
 			color: #99b545;
 			opacity: 1;
 			filter: none;
-			width: 20vw;
+			width: 30%;
 			transition: 0.3s;
 			transition-delay: 0.1s;
 			transition-timing-function: cubic-bezier(.64,1.61,.31,.72);
@@ -145,86 +144,17 @@
 	}
   
   
-  
+
 /*-------------------------------
-			4.3 Style-3
+			4.3 Link Colours
 -------------------------------*/
-  
-	.bezier-cubic-card-3 img{
-		object-fit: cover;
-		height: 250px;
-		transition: 0.5s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	}
 
-	@media (min-width: 993px) {
-		.bezier-cubic-card-3 {
-			overflow: hidden;
-			height: 300px;
-			color: rgba(255, 255, 255, 0);
-			transition: 0.5s;
-			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-
-		.bezier-cubic-card-3 a:link{
-			color: rgba(255, 255, 255, 0);
-			transition: 0.5s;
-			transition-delay: 0.1s;
-			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-		
-		.bezier-cubic-card-3:hover {
-			overflow: visible;
-			color: #99B545;
-			transition: 0.5s;
-			transition-delay: 0.1s;
-			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-		
-		.bezier-cubic-card-3:hover img{
-			height: 10px;
-			transition: 0.5s;
-			transition-delay: 0.1s;
-			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
-	}	
-
-	.bezier-cubic-card-3 a:link, a:visited{
+	.tin-custom-link li, a:link, a:visited{
 		color: #99B545;
 	}
 
-	.bezier-cubic-card-3 a:link:hover{
+	.tin-custom-link a:link:hover{
 		text-decoration-line: underline;
-	}
-
-	.bezier-cubic-card-3 ul{
-		padding-right: 5px;
-		border-style: solid;
-		border-width: 1px;
-		border-radius: 5px;
-		border-color: #99b545;
-	}
-
-
-/*-------------------------------
-			4.4 Quick Links
--------------------------------*/
-
-	.tin-quick-link {
-		transition: 0.3s;
-		transition-delay: 0.1s;
-		transition-timing-function: cubic-bezier(.5,0,.5,1);
-	}
-
-	@media (min-width: 993px) {
-		.tin-quick-link:hover {
-			margin-top: -10px;
-			padding-bottom: 10px;
-			transition: 0.3s;
-			transition-delay: 0.1s;
-			transition-timing-function: cubic-bezier(.5,0,.5,1);
-		}
 	}
 
 
