@@ -30,7 +30,24 @@
 		transition: 0.5s;
 	}
   
+/*page-id-63971*/
+
+	.page-id-68228 #site-header {
+		background-image: linear-gradient(#161d0010, #161D00);
+		background-color: #161D00;
+		transition: 0.5s;
+	}
   
+	.page-id-68228 #site-header:hover {
+		background-color: #161D00;
+		transition: 0.5s;
+	}
+  
+	.page-id-68228 .site-description {
+		color: #99b545;
+	}
+
+
   
 /*===============================
 		2. Menu
@@ -90,6 +107,7 @@
 			4.1 Style-1
 			4.2 Style-2
 			4.3 Link Colours
+			4.4 Video Cards
 ================================*/
   
   
@@ -156,6 +174,29 @@
 	.tin-custom-link a:link:hover{
 		text-decoration-line: underline;
 	}
+
+
+
+
+
+/*-------------------------------
+			4.4 Video Cards
+-------------------------------*/
+  
+@media (min-width: 993px) {
+	.tin-video-card {
+		transition: 0.3s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
+  
+	.tin-video-card:hover {
+		margin-top: -10px;
+		padding-bottom: 10px;
+		transition: 0.3s;
+		transition-delay: 0.1s;
+		transition-timing-function: cubic-bezier(.5,0,.5,1);
+	}
+}
 
 
 
