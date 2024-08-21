@@ -7,6 +7,8 @@
     	4. Site Navigation Cards
 		5. Footer Signup form
 		6. Custom list
+		7. Elementor Slideshow
+		8. Interactive Map
 ================================*/
 
 
@@ -19,7 +21,7 @@
 	#site-header {
 		position: sticky;
 		top: 0px;
-		z-index: 99998;
+		z-index: 99997;
 		background-image: linear-gradient(#ffffff80, white);
 		background-color: #fff0;
 		transition: 0.5s;
@@ -127,8 +129,8 @@
 			color: #99b545;
 			opacity: 0.9;
 			filter: none;
-			margin-top: -30px;
-			padding-bottom: 30px;
+			margin-top: -15px;
+			padding-bottom: 15px;
 			transition: 0.3s;
 			transition-delay: 0.1s;
 			transition-timing-function: cubic-bezier(.5,0,.5,1);
@@ -226,4 +228,128 @@
 	  
 	.tin-custom-ul ul li:before {
 		content: '☐ ';
+	}
+
+
+
+
+
+/*===============================
+		7. Elementor Slideshow
+================================*/
+
+	.elementor-slideshow__header {
+		z-index: 99998;
+	}
+
+	.dialog-lightbox-close-button {
+		color: #99b545 !important;
+	}
+
+
+
+
+
+/*===============================
+		8. Interactive Map
+
+			8.1 Map Default
+			8.2 Map Links
+================================*/
+
+
+/*-------------------------------
+			8.1 Map Default
+-------------------------------*/
+
+.tin-map-region {
+	fill: #99b54570;
+	stroke: #99b545;
+	stroke-width: 2px;
+}
+
+#tin-map-background {
+	background-image: url("https://thisisnamibia.com/wp-content/uploads/2024/08/TIN_2024_01_026-scaled-e1723018270876-1024x683.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.tin-map-card {
+	padding: 10px;
+	margin: -19px;
+	color: white;
+}
+
+.tin-map-card:hover {
+	background-color: white;
+	color:#99b545;
+}
+
+
+/*-------------------------------
+			8.2 Map Links
+-------------------------------*/
+
+:has(#tin-map-card-1:hover) :is(#tin-m7) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-1:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/windhoek-1-1024x683.jpg");
+	}
+
+:has(#tin-map-card-2:hover) :is(#tin-m1) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-2:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2024/08/Zambezi-1024x461.jpg");
+	}
+
+:has(#tin-map-card-3:hover) :is(#tin-m2) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-3:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2023/10/Main-Pic-Mushara-1024x683.jpg");
+	}
+
+:has(#tin-map-card-4:hover) :is(#tin-m4) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-4:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Epupa-2-e1722875817775-1024x662.jpg");
+	}
+
+:has(#tin-map-card-5:hover) :is(#tin-m6) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-5:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2020/12/11.06_Nyae_Nyae_093_Hunting.jpg");
+	}
+
+:has(#tin-map-card-6:hover) :is(#tin-m5) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-6:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2020/07/Damaraland-elies-EM-1-2-1024x683.jpg");
+	}
+
+:has(#tin-map-card-7:hover) :is(#tin-m8) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-7:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/12/Sossusvlei-Namibia.jpg");
+	}
+
+:has(#tin-map-card-8:hover) :is(#tin-m3) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-8:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/coast8-1024x441.jpg");
+	}
+
+:has(#tin-map-card-9:hover) :is(#tin-m9) {
+	fill: #99b545e7;
+}
+	:has(#tin-map-card-9:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Fish-River-Canyon-%C2%A9-Le-Roux-van-Schalkwyk-Venture-Media1-copy-1024x683.jpg");
 	}
