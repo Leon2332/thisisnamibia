@@ -280,6 +280,10 @@
 	stroke-width: 2px;
 }
 
+.tin-map-region:hover {
+	fill: #99b545;
+}
+
 .tin-map-region-default {
 	fill: white;
 	stroke: #99b545;
@@ -375,5 +379,84 @@
 	fill: #99b545e7;
 }
 	:has(#tin-map-card-9:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Fish-River-Canyon-%C2%A9-Le-Roux-van-Schalkwyk-Venture-Media1-copy-1024x683.jpg");
+	}
+
+
+
+/*-----------------------------------------------------------
+				REVERSE
+-----------------------------------------------------------*/
+
+
+:has(#tin-m7:hover) :is(#tin-map-card-1) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m7:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/windhoek-1-1024x683.jpg");
+	}
+
+:has(#tin-m1:hover) :is(#tin-map-card-2) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m1:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2024/08/Zambezi-1024x461.jpg");
+	}
+
+:has(#tin-m2:hover) :is(#tin-map-card-3) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m2:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2023/10/Main-Pic-Mushara-1024x683.jpg");
+	}
+
+:has(#tin-m4:hover) :is(#tin-map-card-4) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m4:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Epupa-2-e1722875817775-1024x662.jpg");
+	}
+
+:has(#tin-m6:hover) :is(#tin-map-card-5) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m6:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2020/12/11.06_Nyae_Nyae_093_Hunting.jpg");
+	}
+
+:has(#tin-m5:hover) :is(#tin-map-card-6) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m5:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2020/07/Damaraland-elies-EM-1-2-1024x683.jpg");
+	}
+
+:has(#tin-m8:hover) :is(#tin-map-card-7) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m8:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/12/Sossusvlei-Namibia.jpg");
+	}
+
+:has(#tin-m3:hover) :is(#tin-map-card-8) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m3:hover) :is(#tin-map-background) {
+		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/coast8-1024x441.jpg");
+	}
+
+:has(#tin-m9:hover) :is(#tin-map-card-9) {
+	background-color: white;
+	color:#99b545;
+}
+	:has(#tin-m9:hover) :is(#tin-map-background) {
 		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Fish-River-Canyon-%C2%A9-Le-Roux-van-Schalkwyk-Venture-Media1-copy-1024x683.jpg");
 	}
