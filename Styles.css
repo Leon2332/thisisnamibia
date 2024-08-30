@@ -9,6 +9,7 @@
 		6. Custom list
 		7. Elementor Slideshow
 		8. Interactive Maps
+		9. Post Favorite Button
 ================================*/
 
 
@@ -460,3 +461,17 @@
 	:has(#tin-m9:hover) :is(#tin-map-background) {
 		background-image: url("https://thisisnamibia.com/wp-content/uploads/2022/11/Fish-River-Canyon-%C2%A9-Le-Roux-van-Schalkwyk-Venture-Media1-copy-1024x683.jpg");
 	}
+
+
+
+
+
+/*===============================
+		9. Post Favorite Button
+================================*/
+	
+
+.simplefavorite-button, .post-tags {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
