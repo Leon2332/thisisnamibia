@@ -31,6 +31,11 @@
 		background-color: white;
 		transition: 0.5s;
 	}
+
+	.site-navigation ul.menu li ul {
+		min-width: 270px;
+		padding-top: 20px;
+	}
   
 /*page-id-63971*/
 
