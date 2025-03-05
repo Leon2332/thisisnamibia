@@ -11,7 +11,10 @@
 	8. Interactive Maps
 	9. Post Favorite Button
 	10. World Map
+	11. Namibia Border Posts Map
+
 ================================*/
+
 
 
 
@@ -519,6 +522,7 @@
 :has(#borderposttext11:hover) #borderpost11,
 :has(#borderposttext12:hover) #borderpost12 {
     stroke: #F48C26;
+	stroke-width: 10;
 	fill: #F48C26;
 }
 
@@ -543,5 +547,6 @@
 
 [id^="borderpost"]:hover {
 	stroke: #F48C26;
+	stroke-width: 10;
 	fill: #F48C26;
 }
