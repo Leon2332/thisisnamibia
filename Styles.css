@@ -502,6 +502,46 @@
 ================================*/
 
 .borderpost {
+    stroke: #C0D03C;
+    fill: #C0D03C;
+}
+
+:has(#borderposttext1:hover) #borderpost1,
+:has(#borderposttext2:hover) #borderpost2,
+:has(#borderposttext3:hover) #borderpost3,
+:has(#borderposttext4:hover) #borderpost4,
+:has(#borderposttext5:hover) #borderpost5,
+:has(#borderposttext6:hover) #borderpost6,
+:has(#borderposttext7:hover) #borderpost7,
+:has(#borderposttext8:hover) #borderpost8,
+:has(#borderposttext9:hover) #borderpost9,
+:has(#borderposttext10:hover) #borderpost10,
+:has(#borderposttext11:hover) #borderpost11,
+:has(#borderposttext12:hover) #borderpost12 {
     stroke: #F48C26;
-    fill: #F48C26;
+	fill: #F48C26;
+}
+
+:has(#borderpost1:hover) #borderposttext1,
+:has(#borderpost2:hover) #borderposttext2,
+:has(#borderpost3:hover) #borderposttext3,
+:has(#borderpost4:hover) #borderposttext4,
+:has(#borderpost5:hover) #borderposttext5,
+:has(#borderpost6:hover) #borderposttext6,
+:has(#borderpost7:hover) #borderposttext7,
+:has(#borderpost8:hover) #borderposttext8,
+:has(#borderpost9:hover) #borderposttext9,
+:has(#borderpost10:hover) #borderposttext10,
+:has(#borderpost11:hover) #borderposttext11,
+:has(#borderpost12:hover) #borderposttext12 {
+    color: #F48C26;
+}
+
+[id^="borderposttext"]:hover {
+	color: #F48C26;
+}
+
+[id^="borderpost"]:hover {
+	stroke: #F48C26;
+	fill: #F48C26;
 }
