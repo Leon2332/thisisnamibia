@@ -5,11 +5,12 @@
     	2. Menu
     	3. Site Logo
     	4. Site Navigation Cards
-		5. Footer Signup form
-		6. Custom list
-		7. Elementor Slideshow
-		8. Interactive Maps
-		9. Post Favorite Button
+	5. Footer Signup form
+	6. Custom list
+	7. Elementor Slideshow
+	8. Interactive Maps
+	9. Post Favorite Button
+	10. World Map
 ================================*/
 
 
@@ -469,4 +470,38 @@
 .simplefavorite-button, .post-tags {
 	margin-left: 20px;
 	margin-bottom: 20px;
+}
+
+
+
+/*===============================
+		10. World Map
+================================*/
+
+.worldcountry {
+    fill: #CCCCCC;
+    stroke-width: 0.4;
+    stroke: #5f5f5f;
+}
+
+#NA {
+    fill: #C0D03C;
+}
+
+:has(#africancountries:hover) :is(#BJ, #BF, #BI, #CV, #CM, #CF, #TD, #KM, #CI, #DJ, #GQ, #ER, #GA, #GM, #GH, #GN, #GW, #LR, #MG, #MR, #NE, #RW, #ST, #SL, #TG, #TN, #EH, #UG) {
+	fill: #F48C26;
+}
+
+:has(#othercountries:hover) :is(#AR, #AM, #AU, #AT, #AZ, #BY, #BE, #BG, #CA, #KH, #CL, #HR, #CZ, #DK, #EC, #EE, #FI, #FR, #DE, #GR, #HU, #IS, #IE, #IL, #IT, #KZ, #KG, #LV, #LI, #LT, #LU, #MX, #MD, #NL, #NZ, #NI, #NO, #PY, #PE, #PL, #PT, #RO, #SG, #SK, #ES, #KR, #SE, #CH, #TJ, #TH, #TR, #TM, #UA, #AE, #GB, #US, #UY, #UZ, #VA, #VE, #VN) {
+	fill: #F48C26;
+}
+
+
+/*===============================
+		11. Namibia Border Posts Map
+================================*/
+
+.borderpost {
+    stroke: #F48C26;
+    fill: #F48C26;
 }
